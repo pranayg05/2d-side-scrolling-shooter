@@ -62,14 +62,39 @@ This project was developed as part of my A-Level Computer Science coursework. It
 
 The project allowed me to apply programming concepts including object-oriented programming, classes, inheritance, collision detection, sprite management, game loops, file handling and basic artificial intelligence.
 
-## What I Learned
+## How to Run
 
-Through developing the project, I gained experience with:
+### Requirements
 
-* Structuring a larger Python program using classes and objects
-* Working with external files and CSV-based data
-* Implementing collision detection and game physics
-* Creating basic enemy AI behaviour
-* Managing multiple game systems within a real-time game loop
-* Testing and debugging a larger software project
-* Designing and implementing interactive gameplay mechanics
+* Python 3.x
+* Pygame
+
+### Installation
+
+1. Clone or download this repository.
+2. Open a terminal in the project directory.
+3. Install Pygame:
+
+```bash
+pip install pygame
+```
+
+### Running the Game
+
+Run the main Python file containing the game:
+
+```bash
+python <main_file>.py
+```
+
+Make sure the game's asset folders and level CSV files remain in their original locations, as the program loads these files using relative paths.
+
+## Level Editor
+
+The project also includes a custom level editor used to create and modify the game's level layouts.
+
+Level layouts are stored as CSV files, allowing the game to load different levels without hard-coding each level directly into the game.
+
+The editor can be used to place and modify different elements of the game world, including platforms, hazards, enemies, collectibles and the player start position.
+
+
